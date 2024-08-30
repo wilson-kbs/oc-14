@@ -1,0 +1,24 @@
+.WrapperPage {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 700px;
+}
+
+.Container > * {
+    width: 100%;
+}
+
+.Container_Title, .Container_Link {
+    text-align: center;
+}
