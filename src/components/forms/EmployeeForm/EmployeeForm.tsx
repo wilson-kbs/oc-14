@@ -3,7 +3,6 @@ import { Employee } from "@/types";
 import { FC } from "react";
 import { Form, Input, Button, Select, DatePicker, InputNumber } from "antd";
 import { FormItem } from "react-hook-form-antd";
-import { DevTool } from "@hookform/devtools";
 import stateOptions from "./stateSelectOptions";
 import { Dayjs } from "dayjs";
 
@@ -89,7 +88,6 @@ const EmployeeForm: FC<EmployeeFormProps> = ({ onSubmit }) => {
           </Button>
         </Form.Item>
       </Form>
-      <DevTool control={control} />
     </>
   );
 };
