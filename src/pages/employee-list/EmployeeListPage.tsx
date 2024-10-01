@@ -1,6 +1,6 @@
 import { RootState } from "@/app/store.ts";
 import { useSelector } from "react-redux";
-import { DataTable } from "@wilson-kbs/oc-14-datatable";
+import DataTable from "@wilson-kbs/oc-14-datatable";
 import type { Employee } from "@/app/slices/employeesSlice";
 import {NavLink} from "react-router-dom";
 import style from "./EmployeeListPage.module.css";
